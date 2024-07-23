@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="message-box">
+        <fieldset>
+            <legend><img src="./assets/Untitled design (18).png" alt="logo"></legend>
+        <p>Ask Me a Question</p>
+        <input type="text" placeholder="Type something...">
+        <div class="buttons">
+            <button id="accept">Accept</button>
+            <button id="decline">Decline</button>
+        </div>
+        </div>
+       </fieldset>
+    <script>
+        document.getElementById('accept').addEventListener('click', function() {
+        alert('Accepted!');
+         });
+
+        document.getElementById('decline').addEventListener('click', function() {
+        alert('Declined!');
+        });
+
+    </script>
+</body>
+</html>

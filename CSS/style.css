@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+ legend img{
+    width: 70px;
+    height: 70px;
+ }
+ fieldset{
+    text-align: center;
+    border: 2px solid #003cff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+ }
+.message-box {
+    text-align: center;
+}
+.message-box p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.message-box input {
+    width: 90%;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#accept {
+    background-color: #003cff;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#decline {
+    background-color: red;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
